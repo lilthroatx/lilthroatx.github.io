@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lilthroatx estate</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+    <body>
+        <section class="lilthroatx">
+            <header>
+                <h3 class="logo">lilthroatx</h3>
+                <div class="toggle"></div>
+            </header>
+
+            <video src="/media/sus.mp4" loop autoplay muted class="sus"></video>
+            <video src="/media/stars.webm" loop autoplay muted class="stars"></video>
+
+                <div class="overlay"></div>
+
+                    <div class="text">
+                        <h2>Projects</h2>
+                        <p>lmfaooo</p>
+                    </div>
+
+        </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="socials.html">Socials</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const lilthroatx = document.querySelector('.lilthroatx')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            lilthroatx.classList.toggle('active')
+        })
+    </script>
+
+    </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lilthroatx estate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <section class="lilthroatx">
+            <header>
+                <h3 class="logo">lilthroatx</h3>
+                <div class="toggle"></div>
+            </header>
+
+            <video src="/media/stars.webm" loop autoplay muted></video>
+
+                <div class="overlay"></div>
+
+                    <div class="text">
+                        <h2>the lil throat x experience</h2>
+                        <p>The entire lil throat x experience, from start to finish,
+                        front to back, beginning to end. A once in a lifetime event</p>
+                        <a href="#">Explore</a>
+                    </div>
+                <ul class="social">
+                    <li><a href="https://www.twitter.com/lilthroatx/"><img src="/media/twitter.png" alt="" height="75px" width="75px"></a></li>
+                    <li><a href="https://www.instagram.com/lilthroatx/"><img src="/media/instagram.png" alt="" height="75px" width="75px"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCpAi7LkJeO0cWpQtf0XtXrQ"><img src="/media/youtube.png" alt="" height="75px" width="75px"></a></li>
+                </ul>
+
+        </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="socials.html">Socials</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const lilthroatx = document.querySelector('.lilthroatx')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            lilthroatx.classList.toggle('active')
+        })
+    </script>
+
+    </body>
+</html>
